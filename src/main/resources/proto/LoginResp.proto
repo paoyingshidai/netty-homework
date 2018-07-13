@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.chat.commons.obj.proto;
+
+option java_outer_classname = "LoginRespProto";
+
+message LoginResp {
+
+  int32 resultCode = 1;
+
+}
+
+// protoc -I=Z:\workspace\code\Java\learn\chat\chat-commons-object\src\main\resources\proto --java_out=Z:\workspace\code\Java\learn\chat\chat-commons-object\src\main\java\    Z:\workspace\code\Java\learn\chat\chat-commons-object\src\main\resources\proto\*.proto
